@@ -1,0 +1,9 @@
+{
+    "client" : {
+        "user" : "postgres",
+        "host" : "localhost",
+        "database" : "UnivBigData",
+        "password" : "tejabale",
+        "port" : 5432
+    }
+}

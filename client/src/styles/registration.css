@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Amarante');
+
+#reg html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#reg html { overflow-y: scroll; }
+body3{ 
+  background: #eee url('https://i.imgur.com/eeQeRmk.png'); /* https://subtlepatterns.com/weave/ */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 62.5%;
+  line-height: 1;
+  color: #585858;
+  padding: 22px 10px;
+  padding-bottom: 55px;
+}
+
+#reg ::selection { background: #5f74a0; color: #fff; }
+#reg ::-moz-selection { background: #5f74a0; color: #fff; }
+#reg ::-webkit-selection { background: #5f74a0; color: #fff; }
+
+#reg br { display: block; line-height: 1.6em; } 
+
+#reg article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+ol, ul { list-style: none; }
+
+#reg input, textarea { 
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none; 
+}
+
+#reg blockquote, q { quotes: none; }
+#reg blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+#reg strong, b { font-weight: bold; } 
+
+#reg table { border-collapse: collapse; border-spacing: 0; }
+#reg img { border: 0; max-width: 100%; }
+
+#reg h1 { 
+/*   font-family: 'Arial', Tahoma, sans-serif; */
+  font-weight: bold;
+  font-size: 1.8em;
+  line-height: 1.7em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+/** page structure **/
+#reg #wrapper {
+  display: block;
+  width: 50%;
+  background: #fff;
+  margin-left: 670px;
+  margin: 0 auto;
+  padding: 10px 17px;
+}
+
+#reg #keywords {
+  margin: 0 auto;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+
+#reg #keywords thead {
+  cursor: pointer;
+  background: #c9dff0;
+}
+#reg #keywords thead tr th { 
+  font-weight: bold;
+  padding: 12px 30px;
+  padding-left: 42px;
+}
+#reg #keywords thead tr th span { 
+  padding-right: 20px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+#reg #keywords thead tr th.headerSortUp, #keywords thead tr th.headerSortDown {
+  background: #acc8dd;
+}
+
+#reg #keywords thead tr th.headerSortUp span {
+  background-image: url('https://i.imgur.com/SP99ZPJ.png');
+}
+#reg #keywords thead tr th.headerSortDown span {
+  background-image: url('https://i.imgur.com/RkA9MBo.png');
+}
+
+
+#reg #keywords tbody tr { 
+  color: #555;
+}
+#reg #keywords tbody tr td {
+  text-align: center;
+  padding: 15px 10px;
+}
+#reg #keywords tbody tr td.lalign {
+  text-align: center;
+}
+
+
+#reg button {
+	border-radius: 20px;
+	border: 1px solid #fe8772;
+	background-color: #f9684f;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 10px 15px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+#reg button:active {
+	transform: scale(0.95);
+}
+
+#reg button:focus {
+	outline: none;
+}
+
+#reg button.ghost {
+	background-color: transparent;
+	border-color: #FFFFFF;
+}

@@ -1,0 +1,276 @@
+#harsha .App {
+  text-align:center;
+  color:blue;
+}
+/*
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #3d68be;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(199, 43, 43);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+body.mav
+{  
+    /* margin: 0;  
+    padding: 0;   */
+    /* background-color:lightcyan; */
+    width: 100%;
+    height: 1000px;
+    background-image: url(https://img.freepik.com/free-photo/perspective-exterior-nobody-empty-box_1258-260.jpg?w=1380&t=st=1676050074~exp=1676050674~hmac=3983365594f2e80d9b61eec8e2958cc5d4a78bcd7daa9f42cf73b9670422adca);  
+    position: fixed;
+    top: 0;
+    left: 0;
+}  
+
+
+.login{  
+        width: 340px; 
+        text-align:left; 
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #23463f;  
+        border-radius: 15px ;  
+          
+} 
+.courses{
+      width: 560px;;
+      text-align: left;
+      overflow: hidden;
+      margin-top: 10px;
+      margin-bottom: 100px;
+      margin-right: 250px;
+      margin-left: 750px;
+      padding: 40px;
+      /* background:lightgrey; */
+      /* background-image: url(https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+      /* url(https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+}
+
+.course-header{
+    width: max-content;  
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 750px;
+    margin-right: 120px;
+    margin-bottom: 0px;
+    font-size: 40px;  
+    color:orangered;
+    /* background: cyan;   */
+    /* padding: 10px;   */
+}
+
+.courseh2{
+  text-align:left;  
+  color:navy; 
+  font-size: 23px; 
+  padding: 10px; 
+}
+
+.clist{
+  text-align: right;
+  padding: 5px;
+  margin-left: 50px;
+}
+
+.Instructor{
+  width: 560px;;
+  text-align:center;
+  overflow: hidden;
+  margin-top: 5px;
+  margin-bottom: 100px;
+  margin-right: 250px;
+  margin-left: 685px;
+  padding: 10px;
+  /* background:lightblue; */
+  /* background-image: url(https://images.pexels.com/photos/220182/pexels-photo-220182.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+  /* background-image: url(https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+}
+
+.Instructor-header{
+  text-align: center;
+  margin-top: 60px;
+  margin-right: 120px;
+  font-size: 50px;  
+  color:darkcyan;
+}
+
+.Running{
+  width: 600px;;
+  text-align: left;
+  color: red;
+  overflow: hidden;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  margin-right: 250px;
+  margin-left: 760px;
+  padding: 40px;
+  /* background:greenyellow; */
+  /* background-image: url(https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+}
+.running-header{
+  text-align: left;
+  margin-top: 50px;
+  margin-right: 120px;
+  margin-left: 750px;
+  font-size: 30px;  
+  color:red;
+
+}
+
+.Running-info{
+  text-align:left;  
+  color:darkmagenta; 
+  font-size: 20px;
+  font-style: italic; 
+  padding: 10px;
+}
+
+.Department{
+  width: 560px;;
+  text-align: left;
+  overflow: hidden;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-right: 250px;
+  margin-left: 685px;
+  padding: 40px;
+  /* background:lightpink; */
+  /* background-image: url(https://images.pexels.com/photos/1242348/pexels-photo-1242348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+}
+
+.Dep-header{
+  width:max-content;
+  text-align:center;
+  margin-top: 60px;
+  margin-right: 120px;
+  margin-left: 700px;
+  font-size: 40px;  
+  color:darkgreen;
+  /* background: yellow; */
+}
+
+.DepName{
+  text-align:left;  
+  color:#23463f; 
+  font-size: 28px; 
+  padding: 10px; 
+}
+
+.Depcourses{
+  text-align:left;  
+  color:darkmagenta; 
+  font-size: 23px; 
+  padding: 10px; 
+}
+
+.DepList{
+  text-align: right;
+  padding: 5px;
+  margin-left: 50px;
+}
+
+/* #harsha h2{  
+  text-align:left;  
+  color:navy; 
+  font-size: 23px; 
+  padding: 10px;  
+} */
+
+b{  
+  text-align:left;  
+  color:red; 
+  font-size: 23px; 
+  padding: 10px;  
+}
+
+.Link{
+  list-style:disc;
+  box-shadow: inset 0 0 0 0 darkred;
+  text-align: left;  
+  color:darkgreen;  
+  /* list-style-type: none; */
+  font-size: 21px; 
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+/* ul:link{
+  color: cyan;
+} */
+
+.Link:hover{
+  box-shadow: inset 570px 0 0 100px yellow,0 0 0 3px whitesmoke;  
+  text-align: left;  
+  color:red;  
+  /* list-style-type: none; */
+  font-size: 20px; 
+}  
+
+
+.label{  
+  color: #23463f;  
+  font-size: 17px;
+  padding:100px; 
+}   
+/* form .input-field:first-child {
+  margin-bottom: 1.5rem;
+}
+
+form input[type="submit"] {
+  background: linear-gradient(to left, #4776E6, #8e54e9);
+  color:brown;
+  border-radius: 4px;
+  margin-top: 2rem;
+  padding: 0.4rem;
+} */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar {
+  text-align: left;
+  height: 60px;
+  margin-left: -1000px;
+  background-color:darkgrey;
+  position: relative;
+}
+.me-auto{
+  word-break: break-all;
+  margin-left: 110px;
+}
+
